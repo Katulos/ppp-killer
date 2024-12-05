@@ -1,0 +1,9 @@
+# English (United States) translations for ppp-killer.
+# Copyright (C) 2024 Katulos
+# This file is distributed under the same license as the ppp-killer project.
+# Katulos <katulos@protonmail.com>, 2024.
+#
+#: templates/errors/401.html:29 templates/errors/403.html:29
+#: templates/errors/404.html:29 templates/errors/500.html:29
+msgid "return_home"
+msgstr "Home"
