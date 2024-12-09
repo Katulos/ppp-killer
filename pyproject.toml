@@ -7,13 +7,13 @@ name = "ppp-killer"
 dynamic = ["version"]
 requires-python = ">= 3.8"
 dependencies = [
-    "apscheduler==3.11.0",
-    "babel==2.16.0",
-    "jinja2==3.1.4",
-    "starlette==0.41.3",
-    "pydantic-settings==2.6.1",
-    "pydantic==2.10.3",
-    "tortoise-orm==0.22.1",
+    "starlette-admin==0.4.0",
+#    "babel==2.16.0",
+#    "jinja2==3.1.4",
+#    "starlette==0.41.3",
+#    "pydantic-settings==2.6.1",
+#    "pydantic==2.10.3",
+#    "tortoise-orm==0.22.1",
     "uvicorn[standard]==0.32.1"
 ]
 authors = [
