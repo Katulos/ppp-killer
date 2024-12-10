@@ -7,9 +7,12 @@ name = "ppp-killer"
 dynamic = ["version"]
 requires-python = ">= 3.8"
 dependencies = [
+    "ansible-runner==2.3.6",
+    "bcrypt==4.2.1",
     "itsdangerous==2.2.0",
     "pydantic-settings==2.6.1",
     "pydantic[email]==2.10.3",
+    "sqlalchemy==2.0.36",
     "starlette-admin[i18n]==0.14.1",
     "starlette==0.41.3",
     "uvicorn==0.32.1",

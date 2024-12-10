@@ -1,0 +1,18 @@
+{% extends "layout.html" %} {% block header %}
+<div class="d-flex justify-content-between align-items-center">
+  <h1>{{ _("Dashboard") }}</h1>
+</div>
+{% endblock header %} {% block modal %} {% include "modals/loading.html" %} {%
+include "modals/error.html" %} {% include "modals/actions.html" %} {% endblock
+modal %} {% block content %}
+<div class="container-fluid">
+  <!--        <div class="row">-->
+  <!--            <div class="col-12">-->
+  <!--                <div class="card">-->
+  <!--                    <div class="card-header"></div>-->
+  <!--                    <div class="card-body"></div>-->
+  <!--                </div>-->
+  <!--            </div>-->
+  <!--        </div>-->
+</div>
+{% endblock content %}
